@@ -16,6 +16,7 @@ namespace DQ10_Tools
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+            ItemDataBase.AddItem();
 
         }
 

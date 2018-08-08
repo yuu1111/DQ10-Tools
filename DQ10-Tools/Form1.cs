@@ -22,24 +22,11 @@ namespace DQ10_Tools
 
         public void Form1_Load(object sender, EventArgs e) {
 
-
-            string[] itemDB;
-            itemDB = new string[] {
-                "どうこうせき",
-                "てっこうせき",
-                "ぎんこうせき"
-
-            };
-
-
-
         }
-  
 
-        public void button1_Click(object sender, EventArgs e)
-        {
-            String Copper = ItemDataBase.Material[0].itemName;
 
+        public void button1_Click(object sender, EventArgs e) {
+            String Copper = ItemDataBase.Material[1].itemName;
             Console.Write(Copper);
         }
     }
